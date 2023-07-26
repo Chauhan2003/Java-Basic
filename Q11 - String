@@ -1,0 +1,29 @@
+// Create a Java function to concatenate two strings and return the result.
+
+import java.util.*;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.next();
+        String str2 = sc.next();
+        
+        System.out.print(str1+str2);
+    }
+}
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+
+import java.util.*;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.next();
+        String str2 = sc.next();
+        
+        str1 = str1.concat(str2);
+        System.out.print(str1);
+    }
+}
