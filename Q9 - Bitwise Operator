@@ -1,0 +1,22 @@
+// Write a Java program that takes two integers as input and swaps their values using bitwise operators without using any additional variable.
+
+import java.util.*;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        
+        bitwiseSwap(num1, num2);
+    }
+    public static void bitwiseSwap(int num1, int num2){
+        // XOR '^' will be used to swap these 2 input without 3rd variabale.
+        num1 = num1^num2;
+        num2 = num1^num2;
+        num1 = num1^num2;
+        
+        System.out.println(num1);
+        System.out.println(num2);
+    }
+}
