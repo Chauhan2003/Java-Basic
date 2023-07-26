@@ -1,0 +1,13 @@
+// Create a method to convert all characters of a string to uppercase.
+
+import java.util.*;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        str = str.toUpperCase();
+        
+        System.out.print(str);
+    }
+}
