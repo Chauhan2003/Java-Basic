@@ -4,9 +4,10 @@ class Main{
     public static void main(String[] args){
         StringBuffer sb = new StringBuffer();
         
-        sb.append("Hyy ");
-        sb.append("I ");
-        sb.append("Gagan Chauhan");
+        sb.append("Hyy");
+        sb.insert(2, "i");
+        sb.delete(0,1);
+        sb.reverse();
         
         System.out.print(sb);
     }
